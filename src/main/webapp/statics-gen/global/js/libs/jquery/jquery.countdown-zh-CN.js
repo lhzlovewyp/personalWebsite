@@ -1,0 +1,1 @@
+(function(b){b.countdown.regional["zh-CN"]={labels:["年","月","周","天","时","分","秒"],labels1:["年","月","周","天","时","分","秒"],compactLabels:["年","月","周","天"],compactLabels1:["年","月","周","天"],whichLabels:null,timeSeparator:":",isRTL:false};b.countdown.setDefaults(b.countdown.regional["zh-CN"])})(jQuery);

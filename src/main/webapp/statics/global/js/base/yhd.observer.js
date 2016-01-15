@@ -1,0 +1,1 @@
+define("base_observer",function(){var a=(function(){var e={};function b(f,g){if(!e[f]){e[f]=[]}e[f].push(g)}function c(g,j){if(e[g]){for(var h=0,f=e[g].length;h<f;h++){e[g][h](j)}}}function d(f,g){if(e[f]){e[f].shift(e[f].indexOf(g))}}return{subscribe:b,fire:c,unsubscribe:d}})();return a});

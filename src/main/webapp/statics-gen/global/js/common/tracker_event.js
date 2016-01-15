@@ -1,0 +1,1 @@
+function addTrackerToEvent(e,d){var f="tk";if(d){f=d}if(e instanceof jQuery){e.find("a["+f+"]").click(function(){var a=$(this),b=a.attr(f);if(b){addTrackPositionToCookie("1",b)}})}else{$(e+" a["+f+"]").each(function(b){var a=this;$(a).click(function(){addTrackPositionToCookie("1",$(a).attr(f))})})}};

@@ -1,0 +1,1 @@
+$(function(){loli.app.minicart.addItemCallback=function(b,a){console.log(b);console.log(a)};loli.app.minicart.removeItemCallback=function(b,a){console.log(b);console.log(a)};loli.app.minicart.updateItemCallback=function(b,a){console.log(b);console.log(a)};loli.app.minicart.chooseItemCallback=function(b,a){console.log(b);console.log(a)}});

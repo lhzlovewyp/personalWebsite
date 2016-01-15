@@ -1,0 +1,1 @@
+var _indexUrl=URLPrefix.central;var _my=URLPrefix.my;function executiveLandedCheck(){}function submitFavorite(a,b){}function showFavoriteResult(a){}function submitpTag(a,c,b){}function showEditFavoriteResult(a){};

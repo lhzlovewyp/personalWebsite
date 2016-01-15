@@ -1,0 +1,1 @@
+(function(c){var d=window.loli||(window.loli={});d.delay=function(p,r,t,n,q){var b="";var o=q||200;var m=o-50;var s;c(p)[r](function(){var f=c(this);var e=true;if(t){var e=t.call(f)}if(!(e==false)){s=setTimeout(function(){a.call(f)},o);b=new Date().getTime()}});function a(){if((new Date().getTime()-b)>=m){if(n){n.call(this)}b=new Date().getTime()}}}})(jQuery);

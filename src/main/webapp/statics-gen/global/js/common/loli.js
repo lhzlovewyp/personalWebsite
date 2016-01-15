@@ -1,0 +1,1 @@
+var loli={_loli:loli};

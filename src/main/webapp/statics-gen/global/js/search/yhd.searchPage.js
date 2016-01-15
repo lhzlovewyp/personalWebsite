@@ -1,0 +1,1 @@
+isIndex=1;runfunctions([],[initHeader,initProvince,searchKeywords_onDocumentReady,initAllMiniCart],this);function runfunctions(i,j,h){if(!(j&&j.length)){return}h=h||window;var f=j.shift();var g=i.shift()||[];for(;;f=j.pop(),g=i.pop()){if(typeof f=="function"){setTimeout(function(){try{f.apply(h,g)}catch(a){}runfunctions(i,j,h)},100);return false}}};

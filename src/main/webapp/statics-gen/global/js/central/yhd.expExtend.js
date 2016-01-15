@@ -1,0 +1,1 @@
+$(document).ready(function(){require(["common_impression"],function(b){b.run()});require(["abtestPv_tracker"],function(b){b.run()})});

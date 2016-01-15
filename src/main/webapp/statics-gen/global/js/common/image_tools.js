@@ -1,0 +1,1 @@
+function DrawImage(e,h,f){var g=new Image();g.src=e.src;if(g.width>0&&g.height>0){if(g.width/g.height>=h/f){if(g.width>h){e.width=h;e.height=(g.height*h)/g.width}else{e.width=g.width;e.height=g.height}}else{if(g.height>f){e.height=f;e.width=(g.width*f)/g.height}else{e.width=g.width;e.height=g.height}}}}function switch_btn_img(d,c){if(d!=null&&c!=null){jQuery(d).attr("src",c)}};

@@ -1,0 +1,1 @@
+var YHDGLOBAL=YHDGLOBAL||{};YHDGLOBAL.getCookie=function(c,a){var b={};if(typeof c=="string"){c=[c]}jQuery(c).each(function(){b[this]=jQuery.cookie(this)});if(typeof a=="function"){a.apply(b)}};YHDGLOBAL.sysCookie=function(a,b){};

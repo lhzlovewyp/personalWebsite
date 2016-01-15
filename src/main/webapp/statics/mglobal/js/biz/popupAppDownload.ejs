@@ -1,0 +1,36 @@
+<!-- app下载弹框 template  -->
+<%
+	var iosURL = data.iosdownloadurl;
+	var androidURL = data.anddownloadurl;
+%>
+<link href="<%= pathurl %>/mglobal/css/popupAppDownload.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.layout_bgcolor,.layout_white .mod_light s{
+	background-color:<%= data.backcolor %>;
+}
+</style>
+
+<div class="mod_popup" id="globalPopupAppDownload">
+    <div class="layout_bgcolor">
+        <div class="mod_banner">
+            <img src="<%= data.picture %>" />
+        </div>
+    </div>
+    <div class="layout_white">
+        <div class="mod_light">
+            <a target="_blank" href="<%= isIOS ? iosURL:androidURL %>" id="globalPopupAppDownload_link1" data-ref="<%= isIOS ? 'h5_global_popupAppDownload_link_ios':'h5_global_popupAppDownload_link'  %>">
+                <s></s>
+                <u></u>
+                <i></i>
+                <span class="gohome"></span>
+                <em></em>
+            </a>
+        </div>
+        <div class="mod_tips">
+            <a target="_blank" href="<%= isIOS ? iosURL:androidURL %>" id="globalPopupAppDownload_link2" data-ref="<%= isIOS ? 'h5_global_popupAppDownload_link_ios':'h5_global_popupAppDownload_link'  %>">
+                <p><s></s><%= data.buttontext ? data.buttontext:"下载/打开1号店客户端" %></p>
+            </a>
+        </div> 
+        <span class="btn_close" id="globalPopupAppDownload_close"></span>
+    </div>
+</div>

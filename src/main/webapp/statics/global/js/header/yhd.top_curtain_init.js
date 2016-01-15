@@ -1,0 +1,1 @@
+$(document).ready(function(){newTopslider("#topCurtain")});

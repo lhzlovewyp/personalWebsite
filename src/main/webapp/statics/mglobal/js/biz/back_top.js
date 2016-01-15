@@ -1,0 +1,1 @@
+$(window).on("scroll",function(){var a=$(this);var c=a.scrollTop();var b=a.height();if(c>b){$(".touchweb_com-backTop").addClass("show")}else{$(".touchweb_com-backTop").removeClass("show")}});

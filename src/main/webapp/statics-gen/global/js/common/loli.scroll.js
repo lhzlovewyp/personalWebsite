@@ -1,0 +1,1 @@
+(function(b){var a=window.loli||(window.loli={});a.scroll=function(g,e){var c="";var d=e||200;var h=d-20;b(window).scroll(function(){setTimeout(function(){f()},d);c=new Date().getTime()});function f(){if((new Date().getTime()-c)>=h){g();c=new Date().getTime()}}}})(jQuery);
